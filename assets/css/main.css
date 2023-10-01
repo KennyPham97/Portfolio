@@ -2903,7 +2903,7 @@ input[type="button"].small,
 #header .logo {
     border-radius: 50%;
     width: 200px; /* Adjust the width to your preferred size */
-    height: 200px; /* Adjust the height to your preferred size */
+    height: auto
 }
 
 #header h1 {
