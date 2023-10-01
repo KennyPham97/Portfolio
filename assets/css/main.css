@@ -2829,7 +2829,7 @@ input[type="button"].small,
 
 #header:before,
 #header:after {
-  background: rgba(224, 224, 224, 0.75);
+  /* background: rgba(224, 224, 224, 0.75); */
   content: "";
   left: 50%;
   position: absolute;
@@ -2892,11 +2892,18 @@ input[type="button"].small,
   margin: 0 0 0.75em 0;
   text-align: center;
   width: 2.35em;
+  background-image: url(images/1694792651814.jpeg);
 }
 
 #header .logo.fa-paper-plane-o:before {
   left: -0.075em;
   position: relative;
+}
+
+#header .logo {
+    border-radius: 50%;
+    width: 200px; /* Adjust the width to your preferred size */
+    height: 200px; /* Adjust the height to your preferred size */
 }
 
 #header h1 {
